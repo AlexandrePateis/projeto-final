@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.title{
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+}
+.intro{
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 2em;
+    color: white;
+
+}
+
+.esc{
+    text-align: center;
+    margin-top: 5em;
+    color: white;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    gap: 1em;
+}
+
+a{
+    border: solid 1px white;
+    padding: 1.8em;
+    transition: linear 0.3s;
+    color: white;
+    padding: 1.8em;
+}
+a:hover{
+    color: black;
+    background: white;
+}
+body{
+    background: black;
+
+}
